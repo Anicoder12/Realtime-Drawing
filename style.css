@@ -1,0 +1,51 @@
+body 
+{
+    background: lightgray;
+}
+
+#heading
+{
+background: lightgreen;
+padding: 5px;
+}
+
+footer
+{
+    background: lightblue;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    padding: 5px;
+    font-weight: bold;
+}
+
+h1 
+{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3
+{
+    font-family: serif;
+}
+
+canvas
+{
+    height: 300px;
+    width: 300px;
+    animation-name: shadows;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shadows 
+{
+    from
+     {
+        box-shadow:10px 10px 25px lightseagreen;   
+    }
+    to 
+    {
+        box-shadow:10px 10px 25px lightslategray;  
+    }
+}
